@@ -22,7 +22,7 @@ public class GoogleSearch {
 		driver.findElement(By.xpath("(//h3[contains(@class,'LC20lb MBeuO DKV0Md')])[1]")).click();
 		String currentWebsite = driver.getCurrentUrl();
 		if (currentWebsite.equals(RTSWebsite)) {
-			System.out.println("You are in the right place. ");
+			System.out.println("You are in the RTS homepage. ");
 		} else {
 			System.out.println("Sorry some thing wrong.");
 		}
